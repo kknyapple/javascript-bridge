@@ -9,6 +9,18 @@ const OutputView = {
     MissionUtils.Console.print(TEXT.OUTPUT.START);
   },
 
+  printBridgeSizeError() {
+    MissionUtils.Console.print(ERROR.BRIDGE_SIZE);
+  },
+
+  printMovementError() {
+    MissionUtils.Console.print(ERROR.MOVEMENT);
+  },
+
+  printRestartError() {
+    MissionUtils.Console.print(ERROR.RESTART);
+  },
+
   /**
    * 현재까지 이동한 다리의 상태를 정해진 형식에 맞춰 출력한다.
    * <p>

@@ -11,6 +11,8 @@ const TEXT = {
 
 const ERROR = {
   BRIDGE_SIZE: "[ERROR]\n",
+  MOVEMENT: "[ERROR]\n",
+  RESTART: "[ERROR]\n",
 };
 
 module.exports = {

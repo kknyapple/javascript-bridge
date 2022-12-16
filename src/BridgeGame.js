@@ -86,7 +86,7 @@ class BridgeGame {
 
   move(movement) {
     if (checkMovement(movement)) {
-      InputView.readMoving(this.move.bind(this));
+      return InputView.readMoving(this.move.bind(this));
     }
 
     const bridgeUD = this.bridge.getBridge();
